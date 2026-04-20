@@ -1,3 +1,5 @@
+'''This module is responsible for extracting data from a CSV file, converting it to JSON format, and inserting it into a MongoDB database. It uses the pandas library for data manipulation, pymongo for MongoDB interactions, and dotenv for environment variable management. The module also includes error handling using a custom exception class.'''
+
 import os
 import sys
 import json

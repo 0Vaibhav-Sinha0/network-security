@@ -1,3 +1,5 @@
+'''This module sets up logging for the network security project. It configures the logging system to create log files in a structured manner, with each log file named based on the current date and time. The logs are stored in a "logs" directory within the current working directory. The logging format includes timestamps, line numbers, logger names, log levels, and messages. This setup allows for effective tracking of events and debugging throughout the project.'''
+
 import logging
 import os
 from datetime import datetime

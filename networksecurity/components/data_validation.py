@@ -1,3 +1,5 @@
+'''This module defines the DataValidation class responsible for performing schema validation and data drift detection on ingested datasets. The class includes methods to read data from CSV files, validate the number of columns against a predefined schema, detect data drift using the Kolmogorov-Smirnov test, and generate a drift report. The validation results are saved as artifacts for use in subsequent stages of the machine learning pipeline. The class also handles exceptions and logs important steps in the data validation process.'''
+
 import os
 import sys
 import pandas as pd

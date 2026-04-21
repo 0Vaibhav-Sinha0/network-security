@@ -1,3 +1,5 @@
+'''This module defines the DataTransformation class responsible for handling data preprocessing, transformation, and saving transformed datasets. The class includes methods to read data from CSV files, create a preprocessing pipeline using KNNImputer for handling missing values, and execute the full transformation pipeline. The transformed datasets are saved as NumPy arrays, and the preprocessing object is saved for future use. The class also handles exceptions and logs important steps in the data transformation process.'''
+
 import os
 import sys
 import numpy as np
